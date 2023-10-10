@@ -2,7 +2,7 @@
 
 <div align="right">
 
-# <img width="180" height="auto"  src="img/logo/DavisQuintero.svg" alt="" class="dav-circle">
+# <img width="180" height="auto"  src="assets/img/logo/DavisQuintero.svg" alt="Logo_DavisQuintero" >
 
 </div>
 
@@ -27,9 +27,9 @@
 En este Repositorio encontraras detalladamente la vida profesional Davis Quintero; para las empresas donde ha ejercido laboralmente, en los proyectos que ha apoyado y ejecutado gracias al conocimiento adquirido y sus futuras emprsas que desea crear y poner en maracha.
 
 <div align="center">
-  <img width="200" height="auto" src="img/logo/davSolution.svg" alt="">
-  <img width="140" height="auto" src="img/logo/davCode.svg" alt="">
-  <img width="180" height="auto" src="img/logo/davTrading.svg" alt="">
+  <img width="180" height="auto" src="assets/img/logo/davSolution.svg" alt="">
+  <img width="140" height="auto" src="assets/img/logo/davCode.svg" alt="">
+  <img width="200" height="auto" src="assets/img/logo/davTrading.svg" alt="">
 </div>
 
 ---
