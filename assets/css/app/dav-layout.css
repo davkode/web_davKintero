@@ -90,18 +90,19 @@
 .copy-p {
   margin: auto;
   width: auto;
-}
-.copy-p,
-.firma-p {
   font-size: var(--step-0);
 }
-.firma-img {
-  margin-left: 0.5rem;
-}
-.firma-img > img {
-  max-width: calc(var(--step-2) * 1.6);
-}
 
+/* ? _Firma_ */
+.firma-p {
+  font-size: var(--step-0);
+  .firma-img {
+    margin-left: 0.5rem;
+    & img {
+      max-width: calc(var(--step-2) * 1.6);
+    }
+  }
+}
 .davcode {
   & p {
     font-size: var(--step-0);
@@ -114,10 +115,32 @@
   }
 }
 
+/* ? _Menu - Social_ */
 .menu-social {
   margin: auto;
   width: 50%;
   & a {
     font-size: var(--step-2);
+  }
+}
+
+/* *** ---- Sinze ==> L / From ==> 62em ---- */
+@media (width >= 62em) {
+  /* * _STYLE - LAYOUT_ */
+  /* ! _Header_ */
+  /* ? _Header - Menu_ */
+  .header-menu {
+    margin-right: 0;
+    padding: 0;
+    min-height: auto;
+    width: 50%;
+    position: relative;
+    clip-path: initial;
+    background-color: transparent;
+  }
+
+  /* ? _Boton - Toggle_ */
+  .menu-toggle {
+    display: none;
   }
 }

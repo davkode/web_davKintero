@@ -1,6 +1,5 @@
 @import "../dav/dav-style.css";
 
-/*  * _COMPONENTES_ */
 /* ! _Banner - BG_ */
 .dav-container-banner-img {
   min-height: 60vh;
@@ -111,4 +110,21 @@
 .card-title {
   padding: 0.5rem 0 0 0.5rem;
   font-size: var(--step-1);
+}
+
+@media (width >= 62em) {
+  /* ! _Banner - BG_ */
+  .l-dav-container-banner-img {
+    background-position: right top;
+  }
+  .l-dav-box-banner-img {
+    background-color: transparent;
+    background-image: var(--bg-gradient);
+  }
+  .l-dav-banner-content {
+    width: 70%;
+  }
+  .l-dav-banner-button {
+    width: 20%;
+  }
 }
