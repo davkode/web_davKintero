@@ -3,8 +3,32 @@
 @import "app/dav-layout.css";
 @import "app/dav-component.css";
 
-.dav-button-s {
-  color: var(--cl-black);
+h1 {
+  font-size: var(--step-4);
+}
+
+.container-header {
+  background-image: none;
+}
+.header-logo {
+  & img {
+    max-width: calc(var(--step-5) * 3);
+  }
+}
+
+.card-content {
+  .card-content-img {
+    & img {
+      max-width: calc(var(--step-5) * 3);
+    }
+  }
+
+.card-content-p {
+  width: 100%;
+  & p {
+    width: 100%;
+    font-size: var(--step-1);
+  }
 }
 
 /* ! _Footer_ */
