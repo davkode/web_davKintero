@@ -22,6 +22,7 @@ h1 {
       max-width: calc(var(--step-5) * 3);
     }
   }
+}
 
 .card-content-p {
   width: 100%;
