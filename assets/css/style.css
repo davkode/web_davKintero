@@ -5,14 +5,24 @@
 
 :root {
   /* ! _Colores - Site_ */
+  --cl-black: #1f2937;
+  --cl-black-dark: #1b2831;
   --cl-grey: #747e99;
   --cl-grey-dark: #485461;
 }
 
+body {
+  color: var(--cl-white);
+  /*background-color: #1f2937;*/
+  background-color: var(--cl-black-dark);
+}
+
+/* ! _Header_ */
 .container-header {
   background-image: none;
-  background-color: var(--cl-white);
+  background-color: var(--cl-black);
 }
+/* ? _Header - Logo_ */
 .header-logo {
   & img {
     max-width: calc(var(--step-5) * 2.5);
@@ -20,9 +30,6 @@
 }
 
 /* ! _Seccion - Hero_ */
-.box-hero {
-  box-shadow: var(--shadow);
-}
 /* ? _Hero - Content - X_ */
 .hero-content-x {
   .hero-img {
@@ -32,7 +39,7 @@
   }
   .hero-contact {
     & li {
-      color: var(--cl-grey-dark);
+      color: var(--cl-grey);
     }
   }
   .hero-social {
@@ -42,7 +49,7 @@
       border-left: 0.2rem solid var(--cl-grey);
       border-radius: 50%;
       padding: 0.5rem;
-      color: var(--cl-grey-dark);
+      color: var(--cl-grey);
     }
   }
 }
@@ -77,21 +84,9 @@
     }
   }
 }
-.card-social {
-  border-top: 0.15rem solid var(--cl-grey);
-  margin: 0.5rem auto 0;
-  padding-top: 1rem;
-  width: 80%;
-  & a {
-    border-left: 0.2rem solid var(--cl-grey);
-    border-radius: 50%;
-    padding: 0.5rem;
-    color: var(--cl-grey-dark);
-  }
-}
 
 /* ! _Footer_ */
 .container-footer {
-  color: var(--cl-black);
+  color: var(--cl-grey);
   background-image: none;
 }

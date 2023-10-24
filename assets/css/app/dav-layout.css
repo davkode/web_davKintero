@@ -109,6 +109,7 @@
 
 /* ? _Footer - Firma_ */
 .footer-firma {
+  width: auto;
   & a {
     margin-left: 0.5rem;
     & img {
