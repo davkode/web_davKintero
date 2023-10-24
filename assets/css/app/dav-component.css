@@ -95,9 +95,10 @@
 .item-card {
   border: 0.15rem solid var(--cl-grey);
   padding: 0.8rem;
+  box-shadow: var(--shadow);
 }
 .card-content {
-  .card-content-img {
+  .card-logo {
     & img {
       max-width: calc(var(--step-5) * 1.6);
     }
