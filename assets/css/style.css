@@ -2,6 +2,7 @@
 @import "dav/dav-icon.css";
 @import "app/dav-layout.css";
 @import "app/dav-component.css";
+@import "dav/animate.css";
 
 :root {
   /* ! _Colores - Site_ */
@@ -9,12 +10,29 @@
   --cl-black-dark: #1b2831;
   --cl-grey: #747e99;
   --cl-grey-dark: #485461;
+
+  --animate-duration-2s: 2s;
+  --animate-duration-3s: 3s;
+  --animate-duration-4s: 4s;
 }
 
 body {
   color: var(--cl-white);
   /*background-color: #1f2937;*/
   background-color: var(--cl-black-dark);
+}
+
+.animate__animated__2s {
+  animation-duration: var(--animate-duration-2s);
+  animation-fill-mode: both;
+}
+.animate__animated__3s {
+  animation-duration: var(--animate-duration-3s);
+  animation-fill-mode: both;
+}
+.animate__animated__4s {
+  animation-duration: var(--animate-duration-4s);
+  animation-fill-mode: both;
 }
 
 /* ! _Header_ */
